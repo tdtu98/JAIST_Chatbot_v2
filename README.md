@@ -5,5 +5,5 @@ Please pull this respository and using the docker command:
 ```
 docker-compose -f docker-compose.yml up
 ```
-You also need to create an .env file to store your openapi key and the mongodb username=admin together with password=secret.
+You also need to create an .env file to store your openai api key and the mongodb username=admin together with password=secret.
 To access the website, please connect to localhost:80. If you want to check the database, please connect to localhost:8081
