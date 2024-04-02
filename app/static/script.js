@@ -109,7 +109,7 @@ async function login (event){
 async function signUp(){
     const inputUserName = document.getElementById('username');
     const passWord = document.getElementById('password');
-    console.log("userName", userName.value)
+    console.log("userName", inputUserName.value)
     console.log("passWord", passWord.value)
     response = await fetch("http://localhost:80/signup/", {
         method: 'POST',
