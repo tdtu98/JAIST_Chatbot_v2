@@ -2,12 +2,20 @@
 <p align="center"> 
   <img src="https://github.com/tdtu98/JAIST_Chatbot_v2/blob/main/images/demo.gif" alt="drawing" style="width:80%;"/>
 </p>
-This the the next version of my chatbot following RAG method. Instead of using streamlit, I implemented the backend with fastapi. The new features like login and signup with username and password are also implemented. The chat history and user's information are stored in mongodb. We can monitor the mongodb using mongo express. I also implemented chat streaming for better user experience. I also containerized all components for future deployment or testing.
+This the the next version of my chatbot following RAG method. Our features includes:
+
+- Signup and login.
+- RAG system with Langchain and ChatGPT-3.5 API.
+- User data storage with Mongodb.
+- Chat histories storage using Mongodb.
+- Chat streaming with Fastapi and chain method astream_event.
+- Containerization with Docker.
 
 ## RAG
 <p align="center"> 
   <img src="https://github.com/tdtu98/JAIST_Chatbot_v2/blob/main/images/RAG.png" alt="drawing" style="width:90%;"/>
 </p>
+The basic idead of our RAG system is using a chat memory to re-generate the input question. For example in our demo, since the previous question is about JAIST, the new generated question is likely to be "What does JAIST stand for?". The rest of our RAG basically follows the standard stucture containing different components: embeddings, LLM, vectorstore, prompts.
 
 ## Usage
 Please pull this respository and using the docker command:
