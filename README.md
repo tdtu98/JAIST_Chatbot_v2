@@ -2,7 +2,12 @@
 <p align="center"> 
   <img src="https://github.com/tdtu98/JAIST_Chatbot_v2/blob/main/images/demo.gif" alt="drawing" style="width:80%;"/>
 </p>
-This the the next version of my chatbot following RAG method. Instead of using streamlit, I implemented the backend with fastapi. The new features like login and signup with username and password are also implemented. The chat history and user's information are stored in mongodb. We can monitor the mongodb using mongo express. I also containerized all components for future deployment or testing.
+This the the next version of my chatbot following RAG method. Instead of using streamlit, I implemented the backend with fastapi. The new features like login and signup with username and password are also implemented. The chat history and user's information are stored in mongodb. We can monitor the mongodb using mongo express. I also implemented chat streaming for better user experience. I also containerized all components for future deployment or testing.
+
+## RAG
+<p align="center"> 
+  <img src="https://github.com/tdtu98/JAIST_Chatbot_v2/blob/main/images/RAG.png" alt="drawing" style="width:80%;"/>
+</p>
 
 ## Usage
 Please pull this respository and using the docker command:
