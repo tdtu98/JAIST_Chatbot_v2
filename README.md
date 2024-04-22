@@ -6,7 +6,7 @@ This the the next version of my chatbot following RAG method. Instead of using s
 
 ## RAG
 <p align="center"> 
-  <img src="https://github.com/tdtu98/JAIST_Chatbot_v2/blob/main/images/RAG.png" alt="drawing" style="width:80%;"/>
+  <img src="https://github.com/tdtu98/JAIST_Chatbot_v2/blob/main/images/RAG.png" alt="drawing" style="width:90%;"/>
 </p>
 
 ## Usage
