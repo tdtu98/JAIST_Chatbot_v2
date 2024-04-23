@@ -20,9 +20,9 @@ user = os.getenv('MONGO_INITDB_ROOT_USERNAME')
 password = os.getenv('MONGO_INITDB_ROOT_PASSWORD')
 
 # in case of using locally, we use this connection_string:
-connection_string = f'mongodb://{user}:{password}@localhost:27017'
+# connection_string = f'mongodb://{user}:{password}@localhost:27017'
 # in case of using docker images, we use this connection_string:
-# connection_string = f'mongodb://{user}:{password}@mongo:27017'
+connection_string = f'mongodb://{user}:{password}@mongo:27017'
 
 
 client = AsyncIOMotorClient(connection_string)
