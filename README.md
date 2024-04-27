@@ -15,7 +15,7 @@ This the the next version of my chatbot following RAG method. Our features inclu
 <p align="center"> 
   <img src="https://github.com/tdtu98/JAIST_Chatbot_v2/blob/main/images/RAG.png" alt="drawing" style="width:90%;"/>
 </p>
-The basic idead of our RAG system is using a chat memory to re-generate the input question. For example in our demo, since the previous question is about JAIST, the new generated question is likely to be "What does JAIST stand for?". The rest of our RAG basically follows the standard stucture containing different components: embeddings, LLM, vectorstore, prompts.
+The basic idea of our RAG system is using a chat memory to re-generate the input question. For example in our demo, since the previous question is about JAIST, the new generated question is likely to be "What does JAIST stand for?". The rest of our RAG basically follows the standard stucture containing different components: embeddings, LLM, vectorstore, prompts.
 
 ## Usage
 Please pull this respository and using the docker command:
