@@ -6,8 +6,7 @@ This the the next version of my chatbot following RAG method. Our features inclu
 
 - Signup and login.
 - RAG system with Langchain and ChatGPT-3.5 API.
-- User data storage with Mongodb.
-- Chat histories storage using Mongodb.
+- User data and chat histories storage with Mongodb.
 - Chat streaming with Fastapi and chain method astream_event.
 - Containerization with Docker.
 
