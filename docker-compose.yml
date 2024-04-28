@@ -1,7 +1,7 @@
 version: '3.8'
 services:
   mongodb:
-    image: arm64v8/mongo:latest
+    image: mongo:latest
     container_name: mongo
     environment:
       MONGO_INITDB_ROOT_USERNAME: admin
@@ -13,7 +13,7 @@ services:
 
 
   mongo-express:
-    image: arm64v8/mongo-express:latest
+    image: mongo-express:latest
     container_name: mongo-express
     environment:
       ME_CONFIG_MONGODB_URL: mongodb://admin:secret@mongo:27017/
