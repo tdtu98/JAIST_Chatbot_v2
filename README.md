@@ -19,7 +19,7 @@ The basic idea of our RAG system is using a chat memory to re-generate the input
 
 ## Usage
 After pulling this respository, create a ```.env``` file following my [```.env.local file``` ](https://github.com/tdtu98/JAIST_Chatbot_v2/blob/main/app/.env.local) to store your environment variables such as ```OPENAI_API_KEY```.
-Compose the docker image using this commnad:
+Compose the docker image using this command:
 ```
 docker-compose -f docker-compose.yml up
 ```
